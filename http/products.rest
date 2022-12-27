@@ -1,4 +1,17 @@
-GET http://127.0.0.1:8080/categories
+GET http://127.0.0.1:8080/product
 
 ###
 
+GET http://127.0.0.1:8080/products?category=1
+
+###
+
+POST http://127.0.0.1:8080/products
+Content-Type: application/json
+
+{
+    "model": "Playe Station 3",
+    "description": "xaxa",
+    "price":100"$",
+    "catId":1
+}
