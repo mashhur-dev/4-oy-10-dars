@@ -1,0 +1,21 @@
+GET http://127.0.0.1:8080/categories
+
+###
+
+POST http://127.0.0.1:8080/categories
+Content-Type: application/json
+
+{
+    "name": "Game Stations"
+}
+
+###
+PUT http://127.0.0.1:8080/categories/1
+Content-Type: application/json
+
+{
+    "name": "Phones"
+}
+
+###
+DELETE http://127.0.0.1:8080/categories/2
